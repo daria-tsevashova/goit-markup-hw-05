@@ -747,7 +747,7 @@ button {
 }
 
 .modal-form-input:focus {
-  border-color: 1px solid #4d5ae5;
+  border-color: #4d5ae5;
 }
 
 .modal-form-input:focus + .modal-form-icon {
@@ -786,7 +786,7 @@ button {
 }
 
 .modal-form-textarea:focus {
-  bborder-color: #4d5ae5;
+  border-color: #4d5ae5;
 }
 
 .modal-form-textarea::placeholder {
@@ -854,13 +854,13 @@ button {
   letter-spacing: 0.04em;
   color: #fff;
 
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 4px 0 rgba(11, 5, 5, 0.15);
   border: none;
   border-radius: 4px;
   text-align: center;
   padding: 16px 32px;
   margin: 24px auto 0;
-  max-width: 169px;
+  min-width: 169px;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
